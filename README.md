@@ -121,7 +121,7 @@ python3 experiments/ecg_dg_train.py\
 
 5) Train our proposed model:
 ```shell
-python3 experiments/ecg.py --model hyperresnet18 --epochs 30 --optim adam --batch_size 128
+python3 experiments/ecg.py --model biodg_resnet18 --epochs 30 --optim adam --batch_size 128
 ```
 
 ### EEG
@@ -143,7 +143,7 @@ python3 experiments/eeg_dg_train.py\
 ```
 4) Train our proposed model:
 ```shell
-python3 experiments/eeg.py --model hyperbioresnet --epochs 20 --optim adam --batch_size 128
+python3 experiments/eeg.py --epochs 20 --optim adam --batch_size 128
 ```
 
 ## Cite Us
