@@ -149,12 +149,15 @@ python3 experiments/eeg.py --model hyperbioresnet --epochs 20 --optim adam --bat
 ## Cite Us
 If you use the above code for your research please cite our paper, which as of the 22nd of June 2023 has been accepted at [IEEE TETCI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297):
 ```citation
-@article{ballas2023towards,
-  title={Towards Domain Generalization for ECG and EEG Classification: Algorithms and Benchmarks},
+@ARTICLE{10233054,
   author={Ballas, Aristotelis and Diou, Christos},
-  journal={arXiv preprint arXiv:2303.11338},
-  year={2023}
-}
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
+  title={Towards Domain Generalization for ECG and EEG Classification: Algorithms and Benchmarks}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-11},
+  doi={10.1109/TETCI.2023.3306253}}
 ```
 
 ## License
