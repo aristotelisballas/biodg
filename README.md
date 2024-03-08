@@ -1,7 +1,7 @@
 # Welcome to BioDG!
 
 BioDG is a PyTorch suite containing benchmark datasets and algorithms for domain generalization, 
-as introduced in [Towards Domain Generalization for ECG and EEG Classification: Algorithms and Benchmarks]([https://arxiv.org/pdf/2303.11338.pdf](https://ieeexplore.ieee.org/document/10233054)).
+as introduced in [Towards Domain Generalization for ECG and EEG Classification: Algorithms and Benchmarks](https://ieeexplore.ieee.org/document/10233054).
 
 The available algorithms were based on [DomainBed](https://github.com/facebookresearch/DomainBed) and modified
 for 1D biosignal classification.
