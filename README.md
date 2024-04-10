@@ -60,7 +60,7 @@ The datasets for the ECG Domain Generalization setup were taken from the [2020 P
 To download the above datasets run the following in a terminal:
 ```shell
 # Download all files
-wget -r -N -c -np https://physionet.org/files/challenge-2020/1.0.2/
+wget -r -N -c -np https://physionet.org/files/challenge-2020/1.0.2/training/
 
 # INCART Annotations -- Extract data and rename folder to 'annotations'
 wget -r -N -c -np https://physionet.org/files/incartdb/1.0.0/training/
