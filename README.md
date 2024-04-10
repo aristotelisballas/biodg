@@ -97,7 +97,7 @@ The datasets are available for research purposes, after applying [here](https://
 ## Quick start
 
 ### ECG
-1) First set the following variables in the bioconfig.py [file](ECG.bioconfig.py):
+1) First set the following variables in the bioconfig.py [file](ECG/bioconfig.py):
 * hostname  --> Create a block with your hostname to set data paths
 * scripts_root --> Root of the code package
 * _root_ecg_path --> Root path of the ecg data
@@ -107,7 +107,7 @@ The datasets are available for research purposes, after applying [here](https://
 ```sh
 python3 ECG/convert_to_pickles.py --hostname user --outpath 'path to directory where converted data will be stored'
 ```
-3) Set the following variables in the ECG bioconfig.py [file](ECG.bioconfig.py):
+3) Set the following variables in the ECG bioconfig.py [file](ECG/bioconfig.py):
 * pickle_data_dir         --> should be same path as the above output path
 * ecg_results_dir         --> experiment results path
 
