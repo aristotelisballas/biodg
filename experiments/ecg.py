@@ -28,7 +28,7 @@ flags.DEFINE_integer('batch_size', 128, 'Batch size')
 flags.DEFINE_float('lr', 0.001, 'Optimizer Learning rate')
 flags.DEFINE_float('momentum', 0.9, 'Optimizer Momentum')
 flags.DEFINE_float('wd', 0.0005, 'Optimizer Weight Decay')
-flags.DEFINE_string('optim', 'sgd', 'Optimizer to be used')
+flags.DEFINE_string('optim', 'adam', 'Optimizer to be used')
 flags.DEFINE_string('c', '', 'Comments for experiment')
 
 
