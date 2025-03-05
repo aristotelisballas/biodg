@@ -89,7 +89,7 @@ def experiment():
     test_steps = dataset_sizes['test'] // batch_size
     holdout_steps = dataset_sizes['holdout'] // batch_size
 
-    outPath = ecg_results_dir / FLAGS.algorithm / FLAGS.network
+    outPath = ecg_results_dir / FLAGS.algorithm / FLAGS.backbone
 
     experiment_num = len(np.array(sorted([item.name for item in outPath.glob('*')]))) + 1
     outPath = outPath / f'training_{experiment_num}'
@@ -211,7 +211,7 @@ def experiment():
     print(outPath)
     f = open(outPath / "details.txt", "w")
     details = f"""---------------Training Details---------------
-           Configuration: Batch: {batch_size} , Epochs: {epochs}, Network: {FLAGS.network},
+           Configuration: Batch: {batch_size} , Epochs: {epochs}, Network: {FLAGS.backbone},
            Hparams: {hparams}, Training Time: {training_time}
            ----------------Comments----------------
            Comments: {FLAGS.c}
