@@ -161,6 +161,23 @@ If you use the above code for your research please cite our paper, which as of t
   doi={10.1109/TETCI.2023.3306253}}
 ```
 
+If you are interested in other 1D biosignals, such as Phonocardiograms (PCG), check out our paper "Which Augmentation Should I Use? An Empirical Investigation of Augmentations for Self-Supervised Phonocardiogram Representation Learning", accepted in [IEEE Access](https://ieeexplore.ieee.org/abstract/document/10804781), here:
+
+[https://github.com/aristotelisballas/listen2yourheart/tree/main](https://github.com/aristotelisballas/listen2yourheart/tree/main)
+
+```citation
+@ARTICLE{10804781,
+  author={Ballas, Aristotelis and Papapanagiotou, Vasileios and Diou, Christos},
+  journal={IEEE Access}, 
+  title={Which Augmentation Should I Use? An Empirical Investigation of Augmentations for Self-Supervised Phonocardiogram Representation Learning}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={193459-193472},
+  keywords={Brain modeling;Phonocardiography;Biological system modeling;Training;Data models;Electrocardiography;Electroencephalography;Feature extraction;Robustness;Representation learning;Contrastive learning;deep learning;OOD representation learning;phonocardiogram classification;self-supervised learning},
+  doi={10.1109/ACCESS.2024.3519297}}
+```
+
 ## License
 
 This source code is released under the MIT license.
